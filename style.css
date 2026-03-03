@@ -116,6 +116,7 @@ body{
   pointer-events: none;
 }
 
+
 .carousel-container{
     width: 100%;
     overflow: hidden;
@@ -259,10 +260,3 @@ body{
 
 
 
-.credit{
-    text-align: center;
-    font-size: 0.9em;
-    color: #cfd8dc;
-    margin-top: 10px;
-    font-style: italic;
-}
