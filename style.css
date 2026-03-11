@@ -225,7 +225,7 @@ body{
 
 .hero-delta{
     height: 90vh;
-    background: url();
+    background: url(images/Okavango.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -236,3 +236,12 @@ body{
     text-align: center;
 }
 
+.hero-delta h2{
+    font-size: 60px;
+    
+}
+
+.hero-delta p{
+    font-size: 22px;
+    
+}
