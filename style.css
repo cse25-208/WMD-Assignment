@@ -10,17 +10,6 @@ body{
  margin: 0;
 }
   
-::-webkit-scrollbar{
- width: 6px;
-}
-
-::-webkit-scrollbar-track{
- background: #111;
-}
- 
-::-webkit-scrollbar-thumb{
- background: linear-gradient(#2e7d32, #81c784);
-}
 
 .bold-text{
  font-weight: bold;
