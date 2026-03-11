@@ -245,3 +245,11 @@ body{
     font-size: 22px;
     
 }
+
+.story{
+    max-width: 800px;
+    margin:  auto;
+    padding: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+}
