@@ -254,13 +254,30 @@ body{
     color: #d35b00;      /* darker on hover */
 }
 
+.content{
+
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+
+
+}
+
 .more-info-safaris {
 
  color: #2e7d32;
-  font-weight: bold;
   text-decoration: none;
+  font-weight: 500;
+  border-bottom: 2px solid #2e7d32;
+  transition: all 0.3s ease;
 }
 
+/* Hover effect */
 .more-info-safari:hover {
-  text-decoration: underline;
+  color: #1b5e20;
+  border-bottom: 2px solid #1b5e20;
 }
