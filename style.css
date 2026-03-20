@@ -345,3 +345,26 @@ body{
 @media (max-width: 600px){
   .wildlife-card { flex: 0 1 100%; max-width: 100%; }
 }
+
+.footer-external {
+  margin: 20px 0;
+}
+
+.footer-external h3 {
+  color: #EADAC0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* External links */
+.footer-external a {
+  display: block;
+  color: #A77E55;
+  text-decoration: none;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.footer-external a:hover {
+  color: #70401B;
+}
