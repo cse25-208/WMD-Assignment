@@ -338,6 +338,68 @@ body{
   border-bottom: 2px solid #70401B;
 }
 
+.flora-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+
+}
+
+.flora-card{
+   background: #f9f9f9;
+  border-radius: 12px;
+  overflow: hidden;
+  flex: 0 1 calc(33.333% - 20px); /* flex-grow, flex-shrink, base width */
+  max-width: calc(33.333%); 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+
+}
+
+.flora-card:hover {
+  transform: translateY(-5px);
+}
+
+.flora-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.flora-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.flora-info h2 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.flora-info p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+
+.flora-card .flora-link{
+ color: #DCBA93;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 2px solid #DCBA93;
+  transition: all 0.3s ease;
+}
+  
+.flora-card .flora-link:hover {
+  color: #70401B;
+  border-bottom: 2px solid #70401B;
+}
+
 @media (max-width: 1024px){
   .wildlife-card { flex: 0 1 calc(50% - 15px); max-width: calc(50% - 15px); }
 }
