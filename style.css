@@ -400,33 +400,53 @@ body{
   border-bottom: 2px solid #70401B;
 }
 
-@media (max-width: 1024px){
-  .wildlife-card { flex: 0 1 calc(50% - 15px); max-width: calc(50% - 15px); }
+.footer {
+  background-color: #0d1b2a; /* deep safari blue */
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
 }
 
-@media (max-width: 600px){
-  .wildlife-card { flex: 0 1 100%; max-width: 100%; }
-}
-
-.footer-external {
-  margin: 20px 0;
-}
-
-.footer-external h3 {
-  color: #EADAC0;
+/* Logo */
+.footer-logo {
+  font-size: 24px;
   margin-bottom: 10px;
-  font-size: 1.2rem;
 }
 
-/* External links */
-.footer-external a {
-  display: block;
-  color: #A77E55;
+/* Description */
+.footer-description {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Make links sit side by side */
+.footer-links,
+.footer-external {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px; /* spacing between links */
+  margin-bottom: 20px;
+}
+
+/* Link styling */
+.footer a {
+  color: #bbb;
   text-decoration: none;
-  margin: 5px 0;
-  transition: color 0.3s ease;
+  font-size: 14px;
+  transition: 0.3s;
 }
 
-.footer-external a:hover {
-  color: #70401B;
+/* Hover effect */
+.footer a:hover {
+  color: #f4a261; /* warm safari color */
+}
+
+/* Copyright */
+.footer-copy {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #888;
 }
