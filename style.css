@@ -401,18 +401,11 @@ body{
 }
 
 .footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  text-align: left;
-}
-
-.footer-logo,
-.footer-description {
-  grid-column: span 2;
+  background-color: #0d1b2a; /* deep safari blue */
+  color: #fff;
+  padding: 30px 20px;
   text-align: center;
 }
-
 
 /* Logo */
 .footer-logo {
