@@ -37,6 +37,14 @@ body{
 }
    
 
+.location{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color:rgba(255, 255, 255, 0.85)
+
+}
+
 .navbar{
   display: flex;
   justify-content: center;   
