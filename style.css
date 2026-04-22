@@ -45,6 +45,14 @@ body{
 
 }
 
+.logo a{
+font-size: 28px;
+font-weight: bold;
+text-decoration: none;
+color: #2f3e2f;
+}
+
+
 .navbar{
   display: flex;
   justify-content: center;   
