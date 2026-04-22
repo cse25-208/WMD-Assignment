@@ -45,11 +45,9 @@ body{
 
 }
 
-.logo a {
-font-size: 28px;
-font-family: 'Playfair Display', serif;
-letter-spacing: 2px;
-color: #EDEDED;
+.logo img {
+  height: 60px;
+  width: auto;
 }
 
 
