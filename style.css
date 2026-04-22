@@ -408,6 +408,13 @@ body{
   border-bottom: 2px solid #70401B;
 }
 
+
+.delta-activities{
+background-color: #f5f1e8;
+padding: 80px 40px;
+
+}
+
 .footer {
   background-color: #0d1b2a; /* deep safari blue */
   color: #fff;
