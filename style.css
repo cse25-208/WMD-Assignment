@@ -436,7 +436,9 @@ color: #9DB4C0;
   color: #fff;
   padding: 10px 30px 20px;
   text-align: center;
+  border-top: 1px solid rgba(206, 194, 178, 0.15);
 }
+
 
 /* Logo */
 .footer-logo {
